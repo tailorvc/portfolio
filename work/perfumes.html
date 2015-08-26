@@ -1,0 +1,182 @@
+<html>
+<head>
+	<title>Photos Perfection</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	$("#menImage").click(function(){
+		
+		$("#Imageshow1").show();
+		$("#Imageshow3").show();
+		$("#Imageshow5").show();
+
+		$("#hideonClick2").hide();
+		$("#hideonClick4").hide();
+		$("#hideonClick6").hide();
+		
+
+	});
+	$("#womanImage").click(function(){
+		
+		$("#hideonClick2").show();
+		$("#hideonClick4").show();
+		$("#hideonClick6").show();
+		
+
+		$("#hideonClick1").hide();
+		$("#hideonClick3").hide();
+		$("#hideonClick5").hide();
+		
+
+	});
+	
+});
+	
+	</script>
+</head>
+<body>
+	<div id="page">
+		<div class="header">
+			<div class="top-header">
+				<img src="images/logo.jpg" />
+				<div class="contact-us">
+					For Additional Information, Contact Us!
+					<br/>
+					<a href="mailto:info@memostra.com">info@memostra.com</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="menu">
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="clothing.html">Clothing</a></li>
+					<li><a href="shoes.html">Shoes</li>
+					<li><a href="electronic.html">Electronics</a></li>
+					<li><a href="perfumes.html">Perfumes</a></li>
+					<li><a href="contactus.html">Contact Us</a></li>
+					<li>
+						<img src="images/email.jpg" />
+						<img src="images/facebook.jpg" />
+					</li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="banner">
+				<img src="images/banner.jpg" />
+			</div>
+			<div class="product-navigation">
+				<div class="product-menu">
+					<a href="index.html" class="product-menu-item active">All Categories</a>
+					<a href="#" id="menImage" class="product-menu-item">Men</a>
+					<a href="#" id="womanImage" class="product-menu-item">Women</a>
+				</div>
+				<div class="product-search">
+					<div class="browse-product">
+						<input type="text" class="search-text" value="Browse Products" />
+					</div>
+					<input type="submit" class="search-button" value="Search">
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div  class="products-area">
+				<div id="hideonClick1" class="product">
+					<div class="product-name">Abercrombie & Fitch</div>
+					<img src="images/P-1.jpg" class="product-image" id="Imageshow1" />
+					<div class="product-details">
+						<div class="product-price">
+							Price: <span>US $65</span>
+						</div>
+						<div class="product-code">
+							COD: <span>AE001</span>
+						</div>
+					</div>
+				</div>
+				<div id="hideonClick2"  class="product middle-product">
+					<div class="product-name">Holister</div>
+					<img src="images/P-2.jpg" class="product-image" id="Imageshow2" />
+					<div class="product-details">
+						<div class="product-price">
+							Price: <span>US $65</span>
+						</div>
+						<div class="product-code">
+							COD: <span>AE001</span>
+						</div>
+					</div>
+				</div>
+				<div id="hideonClick3" class="product">
+					<div  class="product-name">Abercrombie & Fitch</div>
+					<img src="images/P-3.jpg" class="product-image" id="Imageshow3"/>
+					<div class="product-details">
+						<div class="product-price">
+							Price: <span>US $65</span>
+						</div>
+						<div class="product-code">
+							COD: <span>AE001</span>
+						</div>
+					</div>
+				</div>
+				<div id="hideonClick4" class="product">
+					<div class="product-name">Abercrombie & Fitch</div>
+					<img src="images/P-4.jpg" class="product-image" id="Imageshow4" />
+					<div class="product-details">
+						<div class="product-price">
+							Price: <span>US $65</span>
+						</div>
+						<div class="product-code">
+							COD: <span>AE001</span>
+						</div>
+					</div>
+				</div>
+				<div id="hideonClick5" class="product middle-product">
+					<div  class="product-name">Raulph Rulean</div>
+					<img src="images/P-5.jpg" class="product-image" id="Imageshow5"/>
+					<div class="product-details">
+						<div class="product-price">
+							Price: <span>US $65</span>
+						</div>
+						<div class="product-code">
+							COD: <span>AE001</span>
+						</div>
+					</div>
+				</div>
+				<div id="hideonClick6" class="product">
+					<div class="product-name">Raulph Rulean</div>
+					<img src="images/P-6.jpg" class="product-image" id="Imageshow6" />
+					<div class="product-details">
+						<div class="product-price">
+							Price: <span>US $65</span>
+						</div>
+						<div class="product-code">
+							COD: <span>AE001</span>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="product-bnavigation">
+				<div class="nav-containter">
+					<a href="#previous" class="prev button">« Previous</a> 
+				</div>
+				<div class="nav-containter">
+					<div class="nmb-container">
+						<a href="#1" class="nmb button">1</a> 
+						<a href="#2" class="button">2</a> 
+						<a href="#3" class="button">3</a>
+					</div>
+				</div>
+				<div class="nav-containter">
+					<a href="#next" class="nxt button">Next »</a> 
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<br/><br/><br/><br/>
+		</div>
+	</div>
+</body>
+</html>

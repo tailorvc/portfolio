@@ -1,0 +1,349 @@
+body{
+	
+	font-family:arial;
+	margin: 0 auto;
+	max-width: 980px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.clear{clear: both;}
+header{	
+	display: block;
+	text-align: center;
+	height: 100px;
+}
+h2{
+	font-size: 45px;
+	margin: 0;
+	text-align: center;
+	font-family: myFirstFont;
+	vertical-align: baseline;
+}
+@font-face{
+	font-family: myFirstFont;
+    src: url(Lobster_1.0_.otf);
+    font-weight: bold;
+}
+.nameheading{
+	float: left;
+	margin-left: 30px;
+}
+.nameheading h5{
+	margin-top: 0px;
+}
+header nav{
+	display: block;
+	height: 100px;
+	margin-left: 440px;
+}
+header nav ul{
+	text-decoration: none;
+	height: 50px;
+}
+header nav ul li{
+	float: left;	
+	margin-top: 55px;
+	background-color: #EBE7E7;
+	border:solid 1px #D0CCCC;
+	height: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+header nav ul li a{
+	text-decoration: none;
+	margin-left:15px;
+	font-size: 20px;
+	padding: 5px;
+   font-family: myFirstFont;
+}
+.left a:hover {
+	/*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+    -webkit-transform:rotate(0deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+    font-size: 20px;
+}
+nav ul li:hover{
+	border-radius: 10px;
+}   
+
+h3{
+	font-size: 18px;
+	margin: 0;
+	text-align: center;
+
+}
+#container{	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+section{
+	display: block;
+	
+}
+section article:hover{
+	background-color: #eee;
+}
+article{
+	height: auto;
+	background-image:url(confectionary.png);
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-box-shadow:2px 2px 20px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+}
+
+
+.work-area{
+	margin-top: 20px;
+	border-top: dotted 1px #b1c7de;
+	padding-top: 24px; 
+	padding-left: 120px;
+}
+.work-area .product{
+	padding-bottom: 26px;
+	margin-bottom: 26px;
+	border-bottom: dotted 1px #b1c7de;
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+
+}
+.work-area .middle-product{
+	padding-left: 40px;
+}
+.work-area .product .product-name{
+
+	color: #146492;
+	padding-bottom: 9px;
+}
+.work-area .product img {
+	padding: 9px;
+	background-color: #dfedf5;
+	border: solid 1px #c5e2f3;
+	width: 310px;
+	height: 290px;
+}
+
+.work-area .product .product-details
+{
+	margin: 11px 0 25px 0; 
+	color: #444545;
+}
+.work-area .product .product-details .product-price
+{
+	float: left;
+}
+.work-area .product .product-details .product-price span
+{
+	color: #4c9242;
+}
+.work-area .product .product-details .product-code
+{
+	float: right;
+}
+.work-area .product .product-details .product-code span
+{
+	color: #676767;
+}
+
+
+article p{
+	padding-left: 90px;
+}
+
+article a img{
+	width: 300px;
+	border:solid 2px #DCDCDC;
+	margin-top: 20px;
+	border-radius: 10px;
+
+}
+article a img:hover{
+	
+    -webkit-transform:rotate(-4deg) ;
+    -moz-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    -webkit-box-shadow:2px 2px 30px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+}
+article header{
+	margin-top: 5px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	padding: 5px;
+	
+
+}
+article header h1{
+	font-size: 36px;
+	float: left;
+	margin-left: 10px;
+
+}
+@font-face{
+	font-family: mySecondFont;
+    src: url(Exo2.0-Italic.otf);
+    
+}
+article p{
+	font-family: mySecondFont;
+	padding-right: 10px;
+	display: block;
+	vertical-align: baseline;
+	}
+article p img{
+	border-radius: 5%;
+	float: left;
+	margin-right: 10px;
+}
+article ul li{
+	font-family: mySecondFont;
+}
+
+
+ 
+article footer{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	padding: 5px;
+	
+}
+article p{
+	margin-top: 37px;
+	line-height: 2em;
+
+}
+article h1{
+	font-family: myFirstFont;
+	font-size: 22px;
+
+}
+
+aside h1{
+	margin-top: 20px;
+	margin-left: 90px;
+}
+aside{
+	display: block;
+	background-color: #eee;
+	margin: 10px;
+	border-radius: 10px;
+	float: left;
+}
+
+aside a{
+	margin-left:10px;
+	
+
+}
+aside a img{
+	margin-right: 20px;
+	border-radius: 15px;
+	padding: 5px;
+
+}
+
+aside h3{
+	font-size: 25px;
+	margin: 15px;
+	color: orange;
+	background-color: white;
+	border-radius: 10px;
+}
+aside p{
+	margin: 15px;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+}
+footer{
+
+	background-image:url(confectionary.png);
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-box-shadow:2px 2px 20px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+}
+footer:hover{
+	background-color: #eee;
+}
+footer h2{
+	font-size: 14px;
+
+}
+footer nav{
+	display: block;
+	width: 400px;
+	margin: auto;
+}
+footer nav ul{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+footer nav ul li{
+	float: left;
+	width: 95px;
+	display: block;
+	text-align: center;
+}
+footer nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: myFirstFont;
+	color:black;
+
+}
+
+@media screen and (max-width: 680px) {
+
+	article header {
+		width: 95%;
+	}
+	article aside {
+		width: 95%;
+		margin: auto;
+	}
+	.work-area{
+	margin-top: 20px;
+	border-top: dotted 1px #b1c7de;
+	padding-top: 24px; 
+	padding-left: 40px;
+}
+	.work-area .middle-product{
+	padding-left: 2px;
+}
+
+	aside a img{
+		height: auto;
+	}
+	.work-area .product img {
+	padding: 1px;
+	background-color: #dfedf5;
+	border: solid 1px #c5e2f3;
+	width: 310px;
+	height: 290px;
+}
+	footer nav ul li{
+		float: left;
+		width: 23%;
+		display: block;
+		text-align: center;
+	}
+	
+}

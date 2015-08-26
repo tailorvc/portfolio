@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Holiday</title>
+		<link rel="stylesheet" type="text/css" href="resort.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+				<script type="text/javascript">
+	var slideimages=new Array();
+	slideimages[0]= new Image();
+	slideimages[0].src="wk19_images/backimage.png";
+	slideimages[1]= new Image();
+	slideimages[1].src="wk19_images/background3.jpg";
+	slideimages[2]= new Image();
+	slideimages[2].src="wk19_images/backgroun4.jpg";
+
+			//variable that will increment through the images
+var step=0
+
+function slideit(){
+ //if browser does not support the image object, exit.
+ if (!document.images)
+  return  document.getElementById('slide').src = slideimages[step].src
+ if (step<2)
+  step++
+ else
+  step=0
+ //call function "slideit()" every 2.5 seconds
+ setTimeout("slideit()",2000)
+}
+
+slideit()
+
+
+	</script>
+	</head>
+
+	<body onclick ="slideit()">
+		<div id="page">
+			<div class="header">
+					<img src="wk19_images/headlogo.png"/>
+			</div>
+			<div class="content" >
+
+
+				<div class="left">
+					<img src="wk19_images/holoday1.jpg" class="photo" id="img1"/>
+					<img src="wk19_images/holiday2.jpg" class="photo" onmouseover="changeImg()" />
+					<img src="wk19_images/holiday3.jpg"class="photo" />
+					<img src="wk19_images/holiday2.jpg"class="photo" />
+					<img src="wk19_images/holiday3.jpg"class="photo" />
+					<img src="wk19_images/holiday2.jpg"class="photo" />
+					<img src="wk19_images/holiday3.jpg"class="photo" />
+					<img src="wk19_images/holiday2.jpg"class="photo" />
+					<img src="wk19_images/holiday3.jpg"class="photo" />
+					
+					<div class="text">
+						<p>
+							The town offers a variety of summer and winter sports including skiing, hiking, mountain biking and paragliding. Mayrhofen is situated near the Hintertux glacier, which, at 3250m above sea level, is above the snowline. Skiing is available all year round here. Mayrhofen sits between the Penken and the Ahorn mountains which provide ski runs in the winter and mountain biking, hiking and paragliding in the summer. The Ahorn offers mainly easy and intermediate runs, but also has a long, steep red run which was once on the World Cup Downhill circuit but was removed as it was deemed too dangerous.<br/>
+						</p>
+					</div>
+				</div>
+				
+
+				<div class="right">
+					<div class="menu">
+						<ul>
+							<li class="main-item">
+								<a href="#">Mayrhofen holidays</a>
+							</li>
+							<li class="two">Waking in Mayrhofen</li>
+							<li class="two">Things to do in Mayrhofen</li>
+							<li class="two">Accomodation in Mayrhofen</li>
+							<li class="main-item">
+								<a href="#">
+									Rating
+									<img src="wk19_images/aero4.png" style="padding-left:10px;" />
+								</a>
+								<ul class="submenu">
+									<li class="bgcolor">Bird of paradise</li>
+								</ul>
+							</li>
+							<li class="main-item">
+								<a href="#">Rating<img src="wk19_images/aero3.png" style="padding-left:10px;"/></a>
+								<ul class="submenu">
+									<li class="bgcolor">Anthurium</li>
+									<li class="bgcolor"></li>
+									<li class="bgcolor">Carnation</li>
+								</ul>
+							</li>
+							<li class="main-item"><a href="#">Rating<img src="wk19_images/aero3.png" style="padding-left:10px;"></a>
+								<ul class="submenu">
+									<li class="bgcolor">Gerberia</li>
+									<li class="bgcolor">Freezia</li>
+									<li class="bgcolor">Lily</li>
+									<li class="bgcolor">Orchid</li>
+								</ul>
+							</li>
+							<li class="main-item"><a href="#">Rating<img src="wk19_images/aero2.png" style="padding-left:10px;"></a>
+								<ul class="submenu">
+									<li class="bgcolor">Rose</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="clear">
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			$(document).ready(function  (){
+				$(".main-item").mouseover(function(){
+					$(this).find(".submenu").show();
+				});
+				$(".main-item").mouseout(function(){
+					$(this).find(".submenu").hide();
+				});
+			
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,274 @@
+body{
+	background: url(background1.jpg);
+	font-family:arial;
+	margin: 0 auto;
+	max-width: 900px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: auto;
+}
+.clear{clear: both;}
+header{	
+	display: block;
+	text-align: center;
+	height: 100px;
+}
+h2{
+	font-size: 45px;
+	margin: 0;
+	text-align: center;
+	font-family: myFirstFont;
+	vertical-align: baseline;
+}
+@font-face{
+	font-family: myFirstFont;
+    src: url(Lobster_1.0_.otf);
+    font-weight: bold;
+}
+.nameheading{
+	float: left;
+	margin-left: 30px;
+}
+.nameheading h5{
+	margin-top: 0px;
+}
+header nav{
+	display: block;
+	height: 100px;
+	margin-left: 440px;
+}
+header nav ul{
+	text-decoration: none;
+	height: 50px;
+}
+header nav ul li{
+	float: left;	
+	margin-top: 55px;
+	background-color: #EBE7E7;
+	border:solid 1px #D0CCCC;
+	height: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+header nav ul li a{
+	text-decoration: none;
+	margin-left:15px;
+	font-size: 20px;
+	padding: 5px;
+   font-family: myFirstFont;
+}
+.left a:hover {
+	/*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+    -webkit-transform:rotate(0deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+    font-size: 20px;
+}
+nav ul li:hover{
+	border-radius: 10px;
+}   
+
+h3{
+	font-size: 18px;
+	margin: 0;
+	text-align: center;
+
+}
+#container{	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+section{
+	display: block;
+	
+}
+section article:hover{
+	background-color: #eee;
+}
+article{
+	height: auto;
+	background-image:url(confectionary.png);
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-box-shadow:2px 2px 20px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+}
+
+article a img{
+	width: 300px;
+	border:solid 2px #DCDCDC;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+article a img:hover{
+	
+    -webkit-transform:rotate(-2deg) ;
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -webkit-box-shadow:2px 2px 30px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+}
+article header{
+	margin-top: 5px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	padding: 5px;
+	border-bottom: solid 1px black;
+	
+
+}
+article header h1{
+	font-size: 36px;
+	float: left;
+
+
+}
+@font-face{
+	font-family: mySecondFont;
+    src: url(Exo2.0-Italic.otf);
+    
+}
+article p{
+	font-family: mySecondFont;
+	padding-right: 10px;
+	display: block;
+	vertical-align: baseline;
+	}
+article p img{
+	border-radius: 100%;
+	float: left;
+	margin-right: 10px;
+}
+article ul li{
+	font-family: mySecondFont;
+}
+article footer{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	padding: 5px;
+	
+}
+article p{
+	margin-top: 37px;
+	line-height: 2em;
+}
+article h1{
+	font-family: myFirstFont;
+	font-size: 22px;
+}
+
+
+aside h1{
+	margin-top: 20px;
+	margin-left: 90px;
+}
+aside{
+	display: block;
+	background-color: #eee;
+	margin: 10px;
+	border-radius: 10px;
+	float: left;
+}
+
+aside a{
+	margin-left:10px;
+	
+
+}
+aside a img{
+	margin-right: 20px;
+	border-radius: 15px;
+	padding: 5px;
+
+}
+
+aside h3{
+	font-size: 25px;
+	margin: 15px;
+	color: orange;
+	background-color: white;
+	border-radius: 10px;
+}
+aside p{
+	margin: 15px;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+}
+footer{
+
+	background-image:url(confectionary.png);
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-box-shadow:2px 2px 20px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+	height: auto;
+}
+footer:hover{
+	background-color:#eee;
+}
+footer h2{
+	font-size: 14px;
+
+}
+footer nav{
+	display: block;
+	width: 400px;
+	margin: auto;
+	height: auto;
+}
+footer nav ul{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+footer nav ul li{
+	float: left;
+	width: 95px;
+	display: block;
+	text-align: center;
+}
+footer nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: myFirstFont;
+	color:black;
+
+}
+
+@media screen and (max-width: 680px) {
+
+	article header p {
+		width: 95%;
+	}
+	article header h1{
+	height: auto;
+
+}
+	aside a img{
+		height: auto;
+	}
+
+	footer nav ul li{
+		float: left;
+		width: 23%;
+		display: block;
+		text-align: center;
+		height: auto;
+	}
+	
+}

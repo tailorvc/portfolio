@@ -1,0 +1,81 @@
+body{
+	margin:auto;
+}
+#page{
+	width:960px;
+	border-left:solid 1px black;
+	border-right:solid 1px black;
+	margin:auto;
+	font-family: arial;
+}
+.clear{clear:both;}
+#page .header{
+	background-color: #007b65;
+	padding:30px 20px 25px 20px;
+}
+#page .content{
+	background: url('wk19_images/backimage.png');
+}
+#page .content .left{
+	float:left;
+	margin:410px 10px 10px 30px;
+}
+#page .content .left .photo{
+	padding: 4px;
+}
+.left img:hover{
+	background-color: red;
+	
+}
+#page .content .left .text{
+	width:700px;
+	font-size: 13px;
+	background-color: #fff;
+}
+#page .content .left .text p{
+	padding:10px;
+	line-height: 19px;
+}
+#page .content .right{
+	float:right;
+	margin-top:12px;
+	margin-right:12px;
+}
+#page .content .menu{}
+#page .content .menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+#page .content .menu li{
+	list-style-type: none;
+	font-size: 12.96px;
+	font-weight: bold;
+}
+#page .content .menu ul li.main-item a{
+	height: 17px;
+	display: block;
+	padding: 5px 10px;
+}
+
+#page .content .menu a{
+	background: url('wk19_images/mainli.png')repeat top left;
+	text-decoration: none;
+	color:#000;
+}
+#page .content .menu .two{
+	background: url('wk19_images/li2.png')repeat top left;
+}
+#page .content .menu .submenu{
+	margin: 0px;
+	padding:0px;
+	display: none;
+}
+
+#page .content .menu .submenu li{
+	height: 18px;
+	padding: 5px 20px;
+	background: url('wk19_images/sub-bg.png')repeat-x top left;
+}
+#page .content .menu .submenu li:hover{
+	background: url('wk19_images/menu-over.jpg') repeat-x top left;
+}

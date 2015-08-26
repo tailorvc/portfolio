@@ -1,0 +1,195 @@
+body{
+
+ 	background-color: #c0c0c0;
+}
+#page{
+	margin:  auto;
+	width: 960px;
+	
+	background-color:#f7f7f7;
+	height:770px;
+}
+.clear{
+	clear:both;
+}
+
+header{
+	float: left;
+	width: 600px;
+	padding-left: 40px;
+	padding-right: 60px;
+	
+}
+header h1{
+	margin-bottom: 0;
+}
+header p{
+	border-top: solid 2px black;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+.content{
+	width: 960px;
+	float: left;
+	padding-left: 40px;
+}
+section {
+	margin-top: 20px;
+	width: 300px;
+	float: left;
+	display: inline;
+	padding-right:50px;
+
+}
+section h1{
+	color:#F660EC;
+	border-bottom: solid 2px #F660EC;
+	margin-bottom: 5px;
+}
+section h5{
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+section h6{
+	margin-top: 2px;
+}
+figure{
+	width: 700px;
+	
+	
+	}
+#img1{
+	left:555px;
+	position: absolute;
+}	
+#img2{
+	z-index:0;
+	left: 650px;
+	position: absolute;
+}
+#img3{
+	z-index: ;
+	left:755px;
+	position:absolute;
+	transform:rotate(-15deg) ;
+}
+#img4{
+	z-index: ;
+	left: 865px;
+	position:absolute;
+	transform:rotate(5deg) ;
+
+}
+
+#img5{
+	z-index: ;
+	top: 303px;
+	left: 547px;
+	position:absolute;
+	transform:rotate(-20deg) ;
+
+}
+#img6{
+	z-index: ;
+	top: 303px;
+	left: 650px;
+	position:absolute;
+	transform:rotate(5deg) ;
+
+}
+#img7{
+	z-index: ;
+	top: 303px;
+	left: 755px;
+	position:absolute;
+	transform:rotate(-20deg) ;
+
+}
+
+ #img8{
+	z-index: ;
+	top: 303px;
+	left: 855px;
+	position:absolute;
+	transform:rotate(5deg) ;
+
+}
+.bottom{
+	margin-top: 80px;
+}
+.bottomHeader{
+	color: #6FF660;
+	border-bottom: solid 2px #6FF660;
+}
+#B1img{
+	z-index:0;
+	top:470px;
+	left:565px;
+	position: absolute;
+
+}
+#B2img{
+	z-index:0;
+	top:470px;
+	left: 670px;
+	position: absolute;
+}
+#B3img{
+	z-index: 0;
+	top:470px;
+	left:780px;
+	position:absolute;
+	transform:rotate(-15deg) ;
+}
+#B4img{
+	z-index: 0;
+	top:470px;
+	left: 880px;
+	position:absolute;
+	transform:rotate(5deg) ;
+
+}
+
+#B5img{
+	z-index: 0;
+	top: 605px;
+	left: 572px;
+	position:absolute;
+	transform:rotate(-20deg) ;
+
+}
+#B6img{
+	z-index: 0;
+	top: 605px;
+	left: 675px;
+	position:absolute;
+	transform:rotate(5deg) ;
+
+}
+#B7img{
+	z-index:0 ;
+	top: 605px;
+	left: 800px;
+	position:absolute;
+	transform:rotate(-20deg) ;
+
+}
+
+ #B8img{
+	z-index:0 ;
+	top: 605px;
+	left: 910px;
+	position:absolute;
+	transform:rotate(5deg) ;
+
+}
+
+@media only screen (min-width: 150px){
+	#page{
+	margin:  auto;
+	width: 90%;
+	
+	background-color:#f7f7f7;
+	height:770px;
+}	
+}

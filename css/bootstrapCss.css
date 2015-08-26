@@ -1,0 +1,258 @@
+body{
+	background: url(background1.jpg);
+	font-family:arial;
+	margin: 0 auto;
+	max-width: 900px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+header{	
+	display: block;
+	text-align: center;
+	/*height: 100px;*/
+}
+h2{
+	font-size: 55px;
+	margin: 0;
+	text-align: center;
+	font-family: myFirstFont;
+	vertical-align: baseline;
+}
+.clear {
+	clear: both;
+}
+@font-face{
+	font-family: myFirstFont;
+    src: url(Lobster_1.0_.otf);
+    font-weight: bold;
+}
+.nameheading{
+	float: left;
+	margin-left: 30px;
+}
+.nameheading h5{
+	margin-top: 0px;
+}
+header nav{
+	display: block;
+	height: 100px;
+	margin-left: 440px;
+}
+header nav ul{
+	text-decoration: none;
+	height: 50px;
+}
+header nav ul li{
+	float: left;	
+	margin-top: 55px;
+	background-color: #EBE7E7;
+	border:solid 1px #D0CCCC;
+	height: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+header nav ul li a{
+	text-decoration: none;
+	margin-left:15px;
+	font-size: 20px;
+	padding: 5px;
+   font-family: myFirstFont;
+}
+.left a:hover {
+	/*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+    -webkit-transform:rotate(0deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+    font-size: 20px;
+}
+nav ul li:hover{
+	border-radius: 10px;
+}   
+
+h3{
+	font-size: 18px;
+	margin: 0;
+	text-align: center;
+
+}
+#container{	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+section{
+	display: block;
+	float: left;
+}
+section article:hover{
+	background-color: white;
+}
+article{
+	width:100%;
+	background-color: #eee;
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-box-shadow:2px 2px 20px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+}article header a img{
+	border-radius: 100%;
+}
+.details{
+	font-family: myFirstFont;
+	font-size: 25px;
+}
+
+article a img{
+	width: 300px;
+	border:solid 2px #DCDCDC;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+article a img:hover{
+	
+    -webkit-transform:rotate(-3deg) ;
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -webkit-box-shadow:2px 2px 30px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+}
+article header{
+	margin-top: 5px;
+
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	padding: 5px;
+	float: left;
+	width: 500px;
+	
+}
+article aside{
+	width: 330px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-box-shadow:2px 2px 20px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+}
+article footer{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	padding: 5px;
+	
+}
+article p{
+	margin-top: 37px;
+	line-height: 2em;
+	font-family: mySecondFont;
+}
+@font-face{
+	font-family: mySecondFont;
+    src: url(Exo2.0-Italic.otf);
+    
+}
+article h1{
+	font-family: myFirstFont;
+	font-size: 32px;
+}
+aside h1{
+	padding-top: 10px;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+aside{
+	display: block;
+	background-color: #eee;
+	margin-left: 60px;
+	border-radius: 10px;
+	float: left;
+	margin-bottom: 20px;
+}
+aside:hover{
+	background-color: white;
+}
+aside a{
+	margin-left:10px;
+
+}
+aside a img{
+	margin-right: 20px;
+	border-radius: 15px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+
+}
+
+aside h3{
+	font-size: 25px;
+	margin: 15px;
+	color: orange;
+	background-color: white;
+	border-radius: 10px;
+}
+aside p{
+ 	color: #146492;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 0px;
+	text-align: center;
+}
+article h2{
+
+	font-size: 25px;
+	text-align: right;
+	padding-right: 90px;
+}
+article h2 a{
+	color: #146492;
+	text-decoration: none !important;
+
+}
+footer{
+	clear: both;
+	width: 935px;
+	display: block;
+	background-color: #eee;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-box-shadow:2px 2px 20px #888;
+	-moz-box-shadow:2px 2px 20px #888;
+	margin-left: 10px;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+footer:hover{
+	background-color: white;
+}
+footer h2{
+	font-size: 14px;
+	float: left;
+	width: 300px;
+}
+footer nav{
+	display: block;
+	margin-left: 280px;
+	margin-top: 0;
+}
+footer nav ul{
+	text-decoration: none !important;
+	padding-bottom: 0px;
+	padding-top: 6px;
+}
+footer nav ul li{text-decoration:none !important;float:left;}
+footer nav ul li a{
+	text-decoration: none !important;
+	font-size: 20px;
+	font-family: myFirstFont;
+	margin-left: 60px;
+
+
+}
